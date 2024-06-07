@@ -1,0 +1,2716 @@
+
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    
+     
+    
+}
+
+.body{
+
+    background-color: #ffffff;
+}
+
+
+/*Background Image */
+
+
+.hero-index {
+
+    background-color: #000000; 
+    background:url(Home\ Banner\ New\ resized.jpg);
+    padding-top: 200px;
+    padding-bottom: 100px;
+    width: 100%;
+    height:auto
+      
+
+     }
+    
+
+/* Navigation bar */
+
+.index-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background:rgba(0, 0, 0, 0.525);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+
+     }
+
+.index-navbar a {
+    
+    position: relative;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 500 ;
+    text-decoration: none;
+    margin-left: 40px;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+
+     }
+
+
+  
+
+.index-navbar a::before {
+    
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+    transition: .3s;
+    
+     }
+
+
+
+     
+
+.index-navbar a:hover::before {
+    width: 100%;
+
+     }
+
+
+
+/* Home Logo */
+
+
+.logo-index {
+
+    display: flex;
+    align-items: left;
+    width: 90px;
+    position: fixed;
+    margin-left: -90%;
+    justify-content: center;
+    padding: 5px;
+       
+
+     }
+
+
+
+/* Title */
+
+.index-container{
+
+    font-size: 45px;
+     color: #ffffff;
+     text-align: center;
+     padding-left: 50px;
+     padding-right: 50px;
+     padding-top: 100px;
+     padding-bottom: 100px;
+     font-family: "Raleway", sans-serif;
+     
+      
+    }
+
+
+
+
+/* Text box */
+
+.index-text-box-0 {
+
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    padding-bottom: 80%;
+    padding-top: 20px;
+    text-align: center;
+    color: #2C2D2D;
+    line-height: 2.125rem;
+
+     }
+
+.index-para-0 h2{
+     
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: 850;
+    margin-bottom: 15px;
+    margin-top: 10%;
+
+     }
+
+
+
+/* 1st Image */
+
+.index-img-1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    margin-top: -50%;
+   
+
+
+
+     }
+
+.index-wrapper-1{
+    margin: 70px auto;
+    width: 70%;
+    
+
+     }
+
+#index-pic-1{
+    max-width: 400px;
+    float: left;
+    margin-right: 40px;
+    border-radius: 0px;
+
+     }
+
+
+
+.index-text-box-1 h2{
+    font-size: 3em;
+    font-weight: 800;
+    color: #fff;
+
+     }
+
+.index-text-box-1 p{
+    margin-top: 15px;
+    line-height: 1.50em;
+    font-size: 1.5em;
+    color: #fff;
+
+
+
+     }
+
+
+
+
+/*The Contact Options */
+
+.button-main{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    
+    
+    
+     }
+    
+/* Phone */      
+    
+.button-1{
+    
+    font-size: 2em;
+    font-weight: 500;
+    padding: 30px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+
+    }
+    
+.button-1 :hover{ 
+    
+    transform: scale(1.5)
+    }
+    
+
+.button-2{
+    
+    font-size: 2em;
+    font-weight: 500;
+    padding: 30px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+        
+     }
+
+.button-2 :hover{
+
+    transform: scale(1.5);
+
+     }     
+    
+ 
+     
+.button-3{
+    
+    font-size: 2em;
+    font-weight: 500;
+    padding: 30px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-left: 35px;
+    padding-right: 35px;
+            
+     }    
+
+.button-3 :hover{
+
+    transform: scale(1.5);
+}     
+
+
+
+
+/* 2nd Image */
+
+.index-img-2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150vh;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+
+   
+
+
+
+}
+
+.index-wrapper-2{
+    margin: 150px auto;
+    width: 70%;
+
+}
+
+#index-pic-2{
+    max-width: 400px;
+    float: right;
+    margin-left: 40px;
+    border-radius: 0px;
+
+}
+
+
+
+.index-text-box-2 h2{
+    font-size: 3em;
+    font-weight: 800;
+
+}
+
+.index-text-box-2 p{
+    margin-top: 15px;
+    line-height: 1.50em;
+    font-size: 1.5em;
+   
+
+}
+
+
+
+
+/*Youtube Video*/
+
+
+.youtube-container{
+
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+#youtube {
+
+   width: 60%;
+   height: 500px;
+
+
+}
+
+
+
+
+
+
+/*width 414 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/ Services CSS /*/
+
+
+
+
+
+
+
+.hero-services {
+
+        background-color: #000000; 
+        background:url(Services\ Banner.jpg); /* Image Source: Pexels */
+        padding-top: 100px;
+        padding-bottom: 90px;
+        background-size: cover;
+          
+    
+}
+        
+
+
+#header-services{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background:rgba(0, 0, 0, 0.525);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+
+}
+
+
+
+/* Home Logo */
+
+
+.logo-services {
+
+    display: flex;
+    align-items: left;
+    width: 90px;
+    position: fixed;
+    margin-left: -90%;
+    justify-content: center;
+    padding: 5px;
+       
+
+     }
+
+
+
+
+
+.services-navbar a {
+
+    position: relative;
+    font-size: 15px;
+    color: white;
+    font-weight: 500 ;
+    text-decoration: none;
+    margin-left: 40px;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+
+.services-navbar a::before {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+    transition: .3s;
+}
+
+
+
+.services-navbar a:hover::before {
+    width: 100%;
+}
+
+
+
+.services-container{
+
+    font-size: 45px;
+     color: #ffffff;
+     text-align: center;
+     padding-left: 100px;
+     padding-right: 100px;
+     padding-top: 100px;
+     padding-bottom: 60px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      
+}
+
+
+
+
+
+/* Search Bar */
+
+.Searchbar-align{
+
+    padding-left: 33%;
+    padding-top: 75px;
+}
+
+.search{
+    
+    width: max-content;            /* so that the width of the input field equalises with the container */
+    display: flex;
+    align-items: center;          /* makes sure the icon and the input field are centered horizontally */
+    padding: 25px;
+    border-radius: 5px;           /* creates curvator around the content */
+    background: rgba(41, 41, 41, 0.76);  /* colors the border created */
+
+}
+
+.search-input{
+
+    font-size: 17px;
+    font-family:"Raleway", sans-serif;
+    color: #ffffff;
+    margin-left: 14px;           /* to create space between the input and icon */
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 350px;
+ 
+
+
+}
+
+
+
+
+#services-textbox-1{
+
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10%;
+    line-height: 2.125em;     
+    padding-left: 50px;    
+    padding-right: 50px;
+    
+}   
+
+
+
+
+
+
+
+
+/* THE MENU GRID CSS */
+
+.menu-container {
+    max-width: 1200px;
+    margin: 10% auto;   /* To create space */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+   
+}
+
+.services-menu-title {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 80px;
+    color: #000000;
+    font-family:"Raleway", sans-serif;
+    font-weight: 800;
+}
+
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.menu-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 350px;
+    transition: transform 0.3s;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-info {
+    padding: 20px;
+}
+
+.menu-info h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+    font-family: "Raleway", sans-serif;
+}
+
+.menu-info p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.price {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000000;
+    
+}
+
+
+
+
+
+
+/*The Consultancy Options */
+
+.consultancy-container {
+    max-width: 1200px;
+    margin: 10% auto;   /* To create space */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+   
+}
+
+.services-consultancy-title {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 80px;
+    color: #000000;
+    font-family:"Raleway", sans-serif;
+    font-weight: 800;
+   
+}
+
+.consultancy-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.consultancy-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 350px;
+    transition: transform 0.3s;
+}
+
+.consultancy-item:hover {
+    transform: scale(1.05);
+}
+
+.consultancy-item img {
+    width: 100%;
+    height: auto;
+}
+
+.consultancy-info {
+    padding: 20px;
+}
+
+.consultancy-info h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+.consultancy-info p {
+    margin: 10px 0;
+    color: #666;
+    text-align: center;
+}
+
+.price {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000000;
+    
+}
+
+
+
+
+
+
+.service-textbox-2{
+
+    font-size: 18px;
+     color: #000000;
+     text-align: center;
+     padding-left: 80px;
+     padding-right: 80px;
+     padding-top: 50px;
+     padding-bottom: 150px;
+     line-height: 2.125em;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------*/
+
+
+
+
+
+
+
+
+
+/* Sourcing Webpage*/
+
+
+
+    
+.hero-sourcing {
+
+    background-color: rgb(0, 0, 0); 
+    background:url(Sourcing\ Banner.jpg);
+    padding-top: 180px;
+    padding-bottom: 80px;
+    background-size: cover;
+    width: 100%
+
+}
+
+
+    
+
+.sourcing-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background:rgba(0, 0, 0, 0.525);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+
+}
+
+
+/* Home Logo */
+
+
+.logo-sources{
+
+    display: flex;
+    align-items: left;
+    width: 90px;
+    position: fixed;
+    margin-left: -90%;
+    justify-content: center;
+    padding: 5px;
+       
+
+     }
+
+
+.sourcing-navbar a {
+    position: relative;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 500 ;
+    text-decoration: none;
+    margin-left: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.sourcing-navbar a::before {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+    transition: .3s;
+}
+
+
+
+.sourcing-navbar a:hover::before {
+    width: 100%;
+}
+
+
+.sourcing-container{
+
+    font-size: 45px;
+     color: #ffffff;
+     text-align: center;
+     padding-left: 50px;
+     padding-right: 50px;
+     padding-top: 100px;
+     padding-bottom: 138px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      
+}
+
+
+.sourcing-textbox-1 h2{
+    width: 100%;
+    color: #000000;
+    text-align: center;
+    font-weight: 850;
+    font-size: 1.725em;
+    margin-top: 10%;
+   
+}
+
+.sourcing-textbox-1 p{
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: 20px;
+    line-height: 2.125em;
+    margin-top: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+
+
+/* Photo Gallery */
+
+
+
+.sourcing-gallery-container{
+
+    max-width: 1224px;
+    width: 90%;   /* In place for smaller screens */
+    margin: auto; /* its auto becasue the width os 90% */
+    padding: 40px;
+    margin-top: 15%;
+    
+ }
+
+
+
+.photo-gallery{
+
+    display: flex;
+    gap: 10px;
+}
+
+
+.column{
+
+display: flex;
+flex-direction: column;  /* so that it goes horizontally */
+gap: 10px;
+
+}
+
+
+
+
+.photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    object-fit: cover;
+    
+  
+/*Image 1,2,3 */    
+
+}
+
+
+
+
+/* Image 4 */
+
+.sourcing-img-4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+
+   
+}
+
+.sourcing-wrapper-1{
+    margin: 150px auto;
+    width: 70%;
+
+}
+
+#sourcing-pic-4{
+    max-width: 400px;
+    float: right;
+    margin-left: 40px;
+    border-radius: 0px;
+
+}
+
+
+
+.sourcing-textbox-2 h2{
+    font-size: 3em;
+    font-weight: 800;
+
+}
+
+.sourcing-textbox-2 p{
+    margin-top: 15px;
+    line-height: 1.50em;
+    font-size: 1.5em;
+   
+
+}
+
+
+
+
+
+
+
+
+.paramenu{
+
+    font-size: 18px;
+     color: #000000;
+     text-align: center;
+     padding-left: 80px;
+     padding-right: 80px;
+     padding-top: 100px;
+
+
+}
+
+#menuh1{
+
+    justify-content: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Events Webpage */
+
+
+.hero-event {
+
+    background-color: #000000; 
+    background:url(Event\ banner.jpg);
+    padding-top: 150px;
+    padding-bottom: 115px;
+    background-size: cover;
+    width:100%
+}
+
+
+
+#event-header{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 100px;
+background:rgba(0, 0, 0, 0.523);
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 100;
+
+}
+
+
+/* Home Logo */
+
+
+.logo-events {
+
+    display: flex;
+    align-items: left;
+    width: 90px;
+    position: fixed;
+    margin-left: -90%;
+    justify-content: center;
+    padding: 5px;
+       
+
+     }
+
+
+
+.event-navbar a {
+position: relative;
+font-size: 15px;
+color: white;
+font-weight: 500 ;
+text-decoration: none;
+margin-left: 40px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.event-navbar a::before {
+content:'';
+position: absolute;
+top: 100%;
+left: 0;
+width: 0;
+height: 2px;
+background: #ffffff;
+transition: .3s;
+}
+
+
+
+.event-navbar a:hover::before {
+width: 100%;
+}
+
+
+.event-container{
+
+font-size: 45px;
+ color: #ffffff;
+ text-align: center;
+ padding-left: 50px;
+ padding-right: 50px;
+ padding-top: 100px;
+ padding-bottom: 138px;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  
+}
+
+.paraevent{
+
+font-size: 18px;
+ color: #000000;
+ text-align: center;
+ padding-left: 80px;
+ padding-right: 80px;
+ padding-top: 100px;
+
+
+}
+
+
+/* Map */
+
+.event-map{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+#map{
+    width: 80%;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow:0 0 5px #5d5e5e;
+
+}
+
+
+/*Pop up */
+
+.pop-up-1{
+
+   
+   text-align:center;
+   font-size: 4em;
+   font-weight: 900;
+
+   
+
+
+}
+
+
+
+
+
+
+/* Image 1 */
+
+.event-img-1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(7, 7, 7);
+    margin: 0;
+    margin-top: 20%;
+   
+
+
+
+}
+
+.event-wrapper-1{
+    margin: 70px auto;
+    width: 70%;
+    
+
+}
+
+#event-pic-1{
+    max-width: 400px;
+    float: left;
+    margin-right: 40px;
+    border-radius: 0px;
+
+}
+
+.event-text-box-1 ul{
+
+    color: #ffffff;
+}
+
+
+.event-text-box-1 h2{
+    font-size: 3em;
+    font-weight: 800;
+    color: #ffffff;
+    width: 150%;
+
+}
+
+.event-text-box-1 p{
+    margin-top: 40px;
+    line-height: 1.50em;
+    font-size: 1.2em;
+    color: #ffffff;
+    font-weight: 700;
+
+
+
+}
+
+
+
+
+
+
+/* Image 2 */
+
+.event-img-2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    margin-top: 20%;
+   
+
+
+
+}
+
+.event-wrapper-2{
+    margin: 70px auto;
+    width: 70%;
+    
+
+}
+
+#event-pic-2{
+    max-width: 400px;
+    float: right;
+    margin-right: -60px;
+    border-radius: 0px;
+
+}
+
+.event-text-box-2 ul{
+
+    color: #000000;
+    margin-left: -20px;
+}
+
+
+.event-text-box-2 h2{
+    font-size: 3em;
+    font-weight: 800;
+    color: #000000;
+    width: 150%;
+    margin-left: -5%;
+
+}
+
+.event-text-box-2 p{
+    margin-top: 40px;
+    line-height: 1.50em;
+    font-size: 1.2em;
+    color: #000000;
+    font-weight: 700;
+    margin-left: -20px;
+
+
+
+}
+
+
+
+
+
+
+
+/* Tips */
+
+
+
+
+/* Cover Image*/
+
+
+.hero-tips {
+
+    background-color: #000000; 
+    background:url(Tips\ Banner.jpg);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-size: cover;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+
+
+/* Navigation Bar */
+
+#tips-header{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 100px;
+background:rgba(0, 0, 0, 0.525);
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 100;
+
+}
+
+
+/* Home Logo */
+
+
+.logo-tips {
+
+    display: flex;
+    align-items: left;
+    width: 90px;
+    position: fixed;
+    margin-left: -90%;
+    justify-content: center;
+    padding: 5px;
+       
+
+     }
+
+
+
+
+.tips-navbar a {
+position: relative;
+font-size: 15px;
+color: rgb(255, 255, 255);
+font-weight: 500 ;
+text-decoration: none;
+margin-left: 40px;
+justify-content: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+
+
+.tips-navbar a::before {
+content:'';
+position: absolute;
+top: 100%;
+left: 0;
+width: 0;
+height:2px;
+background: #ffffff;
+transition: .3s;
+}
+
+
+
+.tips-navbar a:hover::before {
+width: 100%;
+}
+
+
+.tips-container{
+
+ font-size: 45px;
+ color: #ffffff;
+ text-align: center;
+ padding-left: 50px;
+ padding-right: 50px;
+ padding-top: 50px;
+ padding-bottom: 40px;
+  
+}
+
+
+
+/*Text Block */
+
+.tips-para-1{
+
+font-size: 18px;
+ color: #000000;
+ text-align: center;
+ padding-left: 80px;
+ padding-right: 80px;
+ padding-top: 100px;
+ line-height: 2.125em;
+
+
+}
+
+
+
+
+
+/* 1st Image */
+
+.tips-img-1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150vh;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    margin-top: 10%;
+   
+
+
+
+}
+
+.tips-wrapper-1{
+    margin: 150px auto;
+    width: 70%;
+
+}
+
+#tips-pic-1{
+    max-width: 400px;
+    float: left;
+    margin-right: 40px;
+    border-radius: 0px;
+
+}
+
+
+
+.tips-textbox-1 h2{
+    font-size: 3em;
+    font-weight: 800;
+
+}
+
+.tips-textbox-1 p{
+    margin-top: 15px;
+    line-height: 1.50em;
+    font-size: 1.5em;
+
+
+
+}
+
+
+
+
+/* 2nd Image */
+
+
+.tips-img-2{
+    
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    
+
+
+}
+
+
+
+
+
+
+
+
+/*3rd Image*/
+
+.tips-img-3{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #ffffff56;
+    margin: 0;
+    margin-top: 10%;
+   
+
+
+
+}
+
+.tips-wrapper-2{
+    margin: 70px auto;
+    width: 70%;
+
+}
+
+#tips-pic-3{
+    max-width: 470px;
+    float: left;
+    margin-right: 40px;
+    border-radius: 0px;
+
+}
+
+
+
+.tips-textbox-2 h2{
+    font-size: 2em;
+    font-weight: 800;
+
+}
+
+.tips-textbox-2 p{
+    margin-top: 15px;
+    line-height: 1.50em;
+    font-size: 1em;
+
+
+
+}
+
+
+
+
+/* 4th Image */
+
+.tips-img-4{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #ffffff56;
+    margin: 0;
+    margin-top: 10%;
+   
+
+
+
+}
+
+.tips-wrapper-3{
+    margin: 70px auto;
+    width: 70%;
+
+}
+
+#tips-pic-4{
+    max-width: 500px;
+    height: 850px;
+    float: left;
+    margin-right: 40px;
+    border-radius: 0px;
+
+}
+
+
+
+.tips-textbox-3 h2{
+    font-size: 2em;
+    font-weight: 800;
+
+}
+
+.tips-textbox-3 p{
+    margin-top: 15px;
+    line-height: 1.50em;
+    font-size: 1em;
+
+
+
+}
+
+
+
+.footer {
+    background-color: #ffffff00;
+    color: #000000;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+
+
+
+/*Media Query */
+
+
+@media (max-width:415px) {
+
+
+
+
+/* Index Webpage */   
+
+    .hero-index{
+
+     width: 100%;
+
+    }
+
+
+    .index-navbar{
+       
+       display: flex;
+       font-size: 0.2em;
+       text-align: center;
+       justify-content: center;
+
+    }
+
+
+    .index-navbar a {
+    
+        position: relative;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        font-weight: 500 ;
+        text-decoration: none;
+        margin-left: 12px;
+        align-items: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+    
+         }
+       
+
+    .index-container, .sourcing-container, .tips-container, .event-container, .services-container{
+
+       font-size: 1.0em;
+        color: #ffffff;
+        text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        font-family: "Raleway", sans-serif;
+             
+              
+            }
+
+ /* Home Logo */
+
+
+     .logo-index{
+
+        display: flex;
+        align-items: left;
+        width: 70px;
+        position: fixed;
+        margin-left: -80%;
+        justify-content: center;
+        padding: 5px;
+       
+
+     }
+
+
+/* Text box */
+
+.index-text-box-0 {
+
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 17px;
+    font-family: "Raleway", sans-serif;
+    padding-bottom: 80%;
+    padding-top: 20px;
+    text-align: center;
+    color: #2C2D2D;
+    line-height: 2rem;
+
+     }
+
+.index-para-0 h2{
+     
+    justify-content: center;
+    font-size: 1.25em;
+    font-weight: 850;
+    margin-bottom: 15px;
+    margin-top: 10%;
+
+     }
+
+            
+
+  /* 1st Image */
+
+.index-img-1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    margin-top: -80%;
+   
+
+
+
+     }
+
+.index-wrapper-1{
+    margin: 30px auto;
+    width: 70%;
+    
+
+     }
+
+#index-pic-1{
+    max-width: 350px;
+    float: left;
+    margin-left: -10%;
+    border-radius: 0px;
+    margin-bottom: 15px;
+
+     }
+
+
+
+.index-text-box-1 h2{
+    
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+    
+    
+
+     }
+
+.index-text-box-1 p{
+    margin-top: 20px;
+    line-height: 1.50em;
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+    
+
+
+
+
+     }
+       
+
+/*The Contact Options */
+
+.button-main{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
+    
+    
+    
+     }
+    
+/* Phone */      
+    
+.button-1{
+    
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    border-radius: 7px;
+    margin-right: 8px;
+    cursor: pointer;
+
+    }
+    
+
+
+.button-2{
+    
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 30px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 7px;
+    margin-right: 8px;
+    cursor: pointer;
+    
+        
+     }
+
+ 
+     
+.button-3{
+    
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 30px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 7px;
+    cursor: pointer;
+            
+     }    
+
+
+
+
+
+/* 2nd Image */
+
+.index-img-2{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150vh;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+
+   
+
+
+
+}
+
+.index-wrapper-2{
+    margin: 150px auto;
+    width: 70%;
+
+}
+
+#index-pic-2{
+    
+
+    max-width: 350px;
+    float: left;
+    margin-left: -10%;
+    border-radius: 0px;
+    margin-bottom: 25px;
+
+     }
+
+
+
+.index-text-box-2 h2{
+    font-size: 1.5em;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.index-text-box-2 p{
+    margin-bottom: 10px;
+    margin-top: 15px;
+    line-height: 1.50em;
+    font-size: 1em;
+    text-align: center;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Sourced WebPage */
+
+
+
+    
+
+/* Home Logo */
+
+
+.logo-sources{
+
+    display: flex;
+    align-items: left;
+    width: 70px;
+    position: fixed;
+    margin-left: -80%;
+    justify-content: center;
+    padding: 5px;
+       
+
+     }
+
+
+
+/* Navigation Bar */     
+
+.sourcing-navbar {
+    display: flex;
+    font-size: 0.2em;
+    text-align: center;
+    justify-content: center;
+}
+
+.sourcing-navbar a {
+    
+    position: relative;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 500 ;
+    text-decoration: none;
+    margin-left: 12px;
+    align-items: center;
+
+}
+
+
+/* Title */
+
+.sourcing-container{
+
+    font-size: 20px;
+     color: #ffffff;
+     text-align: center;
+     padding-left: 50px;
+     padding-right: 50px;
+     padding-top: 100px;
+     padding-bottom: 138px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      
+}
+
+
+/*Text Block */
+
+.sourcing-textbox-1 h2{
+    width: 100%;
+    color: #000000;
+    text-align: center;
+    font-weight: 850;
+    font-size: 1.725em;
+    margin-top: 10%;
+   
+}
+
+.sourcing-textbox-1 p{
+    
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: 17px;
+    line-height: 1.9em;
+    margin-top: 8px;
+    padding: 20px;
+}
+
+
+
+
+/* Photo Gallery */
+
+
+
+
+.photo-gallery{
+
+    display:flex ;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.column{
+
+display: flex;
+flex-direction: column;  /* so that it goes downwards */
+gap: 10px;
+
+}
+
+
+
+/* Image 4 */
+
+
+
+#sourcing-pic-4{
+    max-width: 350px;
+    float: right;
+    margin-right: -27.5px;
+    border-radius: 0px;
+    margin-bottom: 15px;
+
+}
+
+
+
+.sourcing-textbox-2 h2{
+    font-size: 1.5em;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.sourcing-textbox-2 p{
+    margin-top: 15px;
+    line-height: 1.9em;
+    font-size: 1em;
+   text-align: center;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Service Webpage */
+
+
+
+
+
+    
+
+
+/* Home Logo */
+
+
+.logo-services {
+
+display: flex;
+align-items: left;
+width: 70px;
+position: fixed;
+margin-left: -80%;
+justify-content: center;
+padding: 5px;
+   
+
+ }
+
+
+.services-navbar {
+
+
+display: flex;
+font-size: 0.2em;
+text-align: center;
+justify-content: center;
+
+
+}
+
+
+.services-navbar a {
+
+position: relative;
+font-size: 15px;
+color: white;
+font-weight: 500 ;
+text-decoration: none;
+margin-left: 12px;
+align-items: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+
+
+
+
+.services-container{
+
+font-size: 18px;
+ color: #ffffff;
+ text-align: center;
+ padding-left: 50px;
+ padding-right: 50px;
+ padding-top: 90px;
+ padding-bottom: 20px;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+
+
+
+
+/* Search Bar */
+
+.Searchbar-align{
+
+   margin-left: -19%;
+}
+
+.search{
+
+width: max-content;           
+display: flex;
+align-items: center;          
+border-radius: 5px;           
+background: rgba(41, 41, 41, 0.76);  
+
+}
+
+.search-input{
+
+font-size: 13px;
+font-family:"Raleway", sans-serif;
+color: #ffffff;
+margin-left: 14px;           
+outline: none;
+border: none;
+background-color: transparent;
+width: 110px;
+
+
+
+}
+
+
+
+
+
+#services-textbox-1{
+
+font-size: 1em;
+margin-top: 10%;
+line-height: 2.125em; 
+padding: 25px;  
+text-align: center; 
+
+
+}
+
+
+
+
+
+
+
+
+/* The Menu Options */
+
+.menu-container {
+max-width: 1200px;
+margin: 10% auto;   
+padding: 20px;
+background-color: #ffffff;
+border-radius: 5px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+
+}
+
+.services-menu-title {
+text-align: center;
+font-size: 2.5em;
+margin-bottom: 50px;
+color: #000000;
+font-family:"Raleway", sans-serif;
+}
+
+
+
+
+/*The Consultancy Options */
+
+
+
+.services-consultancy-title {
+text-align: center;
+font-size: 2.5em;
+margin-bottom: 50px;
+color: #000000;
+font-family:"Raleway", sans-serif;
+
+}
+
+
+
+
+.service-textbox-2{
+
+font-size: 15px;
+ color: #000000;
+ text-align: center;
+
+ 
+
+}
+
+
+
+
+/*Events Webpage*/
+
+
+
+
+
+/* Home Logo */
+
+
+.logo-events {
+
+display: flex;
+align-items: left;
+width: 70px;
+position: fixed;
+margin-left: -80%;
+justify-content: center;
+padding: 5px;
+       
+
+}
+
+
+.event-navbar {
+ display: flex;
+ font-size: 0.2em;
+ text-align: center;
+ justify-content: center;
+
+
+}
+
+
+
+
+.event-navbar a {
+position: relative;
+font-size: 15px;
+color: white;
+font-weight: 500 ;
+text-decoration: none;
+margin-left: 12px;
+align-items: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+.event-container{
+
+font-size: 20px;
+ color: #ffffff;
+ text-align: center;
+ padding-left: 50px;
+ padding-right: 50px;
+ padding-top: 100px;
+ padding-bottom: 138px;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  
+}
+
+.paraevent{
+
+font-size: 18px;
+ color: #000000;
+ text-align: center;
+ padding-left: 80px;
+ padding-right: 80px;
+ padding-top: 100px;
+
+
+}
+
+
+.pop-up-1{
+   
+   font-size: 2em;
+   
+
+
+}
+
+
+
+
+/* Map */
+
+.event-map{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+#map{
+    width: 80%;
+    height: 400px;
+}
+
+
+
+/* Image 1 */
+
+.event-img-1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    margin-top: 10%;
+   
+
+
+
+}
+
+.event-wrapper-1{
+    margin: 70px auto;
+    width: 70%;
+    
+
+}
+
+#event-pic-1{
+    max-width: 350px;
+    border-radius: 0px;
+    margin-left: -23px;
+    margin-bottom: 15px;
+    
+
+}
+
+
+
+.event-text-box-1 h2{
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: -70px;
+    
+
+}
+
+.event-text-box-1 p{
+    margin-top: 15px;
+    line-height: 1.5em;
+    font-size: 1em;
+    color: #ffffff;
+    font-weight: 700;
+
+
+
+}
+
+/* Image 2*/
+
+.event-img-2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10%;
+    
+   
+
+
+
+}
+
+
+#event-pic-2{
+    max-width: 350px;
+    border-radius: 0px;
+    margin-bottom: 15px;
+    float: none;
+    margin-left: -25px;
+    
+    
+}
+
+
+
+.event-text-box-2 h2{
+    font-size: 1.4em;
+    font-weight: 800;
+    color: #000000;
+    margin-bottom: 30px;
+    margin-top: 20px;
+ 
+    
+  
+    
+
+}
+
+.event-text-box-2 p{
+    margin-top: 15px;
+    line-height: 1.5em;
+    font-size: 1em;
+    color: #000000;
+    font-weight: 700;
+    
+ 
+
+
+
+}
+
+/*Tips Webpage*/
+
+  
+/* Home Logo */
+
+
+.logo-tips {
+
+    display: flex;
+    align-items: left;
+    width: 70px;
+    position: fixed;
+    margin-left: -80%;
+    justify-content: center;
+    padding: 5px;
+       
+
+     }
+
+
+
+.tips-navbar {
+    display: flex;
+    font-size: 0.2em;
+    text-align: center;
+    justify-content: center;
+       
+       
+       }
+       
+
+
+.tips-navbar a {
+position: relative;
+font-size: 15px;
+color: rgb(255, 255, 255);
+font-weight: 500 ;
+text-decoration: none;
+margin-left: 12px;
+justify-content: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+
+
+
+
+
+.tips-container{
+
+ font-size: 20px;
+ color: #ffffff;
+ text-align: center;
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-top: 50px;
+ padding-bottom: 40px;
+  
+}
+
+
+
+/*Text Block */
+
+.tips-para-1{
+
+font-size: 15px;
+ color: #000000;
+ text-align: center;
+ padding-left: 40px;
+ padding-right: 40px;
+ padding-top: 80px;
+ line-height: 2.125em;
+
+
+}
+
+
+
+
+
+/* 1st Image */
+
+.tips-img-1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10%;
+    margin-left: -7px;
+   
+
+
+
+}
+
+.tips-wrapper-1{
+    margin: 150px auto;
+    width: 70%;
+
+}
+
+#tips-pic-1{
+    max-width: 300px;
+    margin-right: 40px;
+    border-radius: 0px;
+    margin-bottom: 25px;
+
+}
+
+
+
+.tips-textbox-1 h2{
+    font-size: 1.5em;
+    font-weight: 800;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.tips-textbox-1 p{
+    margin-top: 15px;
+    line-height: 1.50em;
+    font-size: 1.5em;
+
+
+
+}
+
+
+.tips-textbox-1 b{
+
+    font-size: 17px;
+}
+
+
+
+/* 2nd Image */
+
+
+.tips-img-2{
+    
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+    
+
+
+}
+
+
+
+
+
+
+
+
+/*3rd Image*/
+
+.tips-img-3{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #ffffff56;
+    margin: 0;
+    margin-top: 10%;
+    margin-left: -7px;
+   
+
+
+
+}
+
+.tips-wrapper-2{
+    margin: 70px auto;
+    width: 70%;
+
+}
+
+#tips-pic-3{
+    max-width: 300px;
+    float: left;
+    margin-right: -20px;
+    border-radius: 0px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+
+
+
+.tips-textbox-2 h2{
+    font-size: 1.5em;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+.tips-textbox-2 p{
+    margin-top: 15px;
+    line-height: 1.50em;
+    font-size: 1em;
+
+
+
+}
+
+
+
+
+/* 4th Image */
+
+.tips-img-4{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #ffffff56;
+    margin: 0;
+    margin-top: 10%;
+   
+
+
+
+}
+
+.tips-wrapper-3{
+    margin: 70px auto;
+    width: 70%;
+
+}
+
+#tips-pic-4{
+    max-width: 500px;
+    height: 450px;
+    float: left;
+    margin-right: 40px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+
+}
+
+
+
+.tips-textbox-3 h2{
+    font-size: 1.5em;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.tips-textbox-3 p{
+    margin-top: 25px;
+    line-height: 1.50em;
+    font-size: 1em;
+
+
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
